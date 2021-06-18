@@ -1,0 +1,30 @@
+// Add search parameters
+// *including parameter for 'all' chapters
+
+// On display user would be able to see One Piece logo(create h1) (find onepiece font), followed by three clickable images linking to other(Chapters, Volumes, Arcs)
+Footer includes Juno, our names which link to our social profiles
+
+// Once image is selected link to directed page (chapters, volumes, arcs)
+
+// Chapters page:
+// will display cover image and summary and title logo
+// Will default to id 1: chapter 1
+// $Will have user scroll-menu displayed at top (linked to api)
+// $Will have image-carousel with arrows on either side of image, directing to different index chapters
+Add Footer Info
+
+// Arcs page:
+// create array of arcs containing chapters of specific range of  id numbers (ex.1-50)
+// Display 10 box divs, with specific image, and title displayed on top of it.
+// add event listener to each div linking to their arc array index 0 (default first chapter of arc)
+//  $Will have user scroll-menu displayed at top with specific chapters from the created array
+// $Will have image-carousel with arrows on either side of image, directing to different index chapters
+Add Footer info
+
+// *STRETCH GOAL
+// Volume page:
+// create array of volumes containing chapters of specific range of  id numbers(ex.1 - 12)
+// display ?????
+// $Will have user scroll-menu displayed at top with only specific chapters from the created array
+// $Will have image-carousel with arrows on either side of image, directing to different index chapters
+Add Footer info

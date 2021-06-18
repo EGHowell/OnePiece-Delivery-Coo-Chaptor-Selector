@@ -1,0 +1,15 @@
+@mixin h1 {
+    font-family: 'ONE PIECE', sans-serif;
+    font-size: 55px;
+    letter-spacing: 2px;
+    color: $title-color;
+}
+
+@mixin h2 {
+    font-family: 'ONE PIECE', sans-serif;
+    font-size: 85px;
+    color: $eggshell-color;
+    letter-spacing: 3px;
+    -webkit-text-stroke: 3px black;
+}
+

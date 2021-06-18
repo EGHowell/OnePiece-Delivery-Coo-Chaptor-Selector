@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcs - Delivery Coo Chapter Selector</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://kit.fontawesome.com/ca23dd92c0.js" crossorigin="anonymous"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href=".assets//apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
+    <link rel="manifest" href="./assets/site.webmanifest">
+    <link rel="mask-icon" href="./assets/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body class="arcs-body">
+
+    <!-- Header -->
+    <header>
+        <div class="header-logo wrapper">
+            <img  class="logo-desktop" src="./assets/onepiece-logo.png" alt="One Piece logo">
+            <img class="mobile" src="./assets/onepiece-logo-mobile.png" alt="An image of the strawhat pirate jolly roger">
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="chapters.html">CHAPTERS</a></li>
+                    <li><a href="arcs.html">ARCS</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Scrollable menu -->
+    <div class="menu-container" id="arc-menu">
+    
+        <audio controls loop>
+            <source src="./assets/One Piece - AMV - We Are! (Full Song) (320 kbps).mp3">
+        </audio>
+    
+        <div class="jump-link">
+        
+            <a href="https://www.viz.com/shonenjump/chapters/one-piece">
+                <p>Click Here To Read More:</p><img src="./assets/jump-icon.png" alt="image of jump manga logo">
+            </a>
+            
+        </div>
+
+        <div class="post">
+            <div class="post-title">
+    
+                <form action="">
+                    <fieldset>
+    
+                        <label for="chapters-menu">
+                            <p>Arc Menu</p>
+                        </label>
+    
+                        <select name="chapters-scroll-menu" id="arc-selection">
+                            <option value="1">East Blue (1 - 100)</option>
+                            <option value="101">Alabasta (101 - 217)</option>
+                            <option value="218">Skypia (218 - 302)</option>
+                            <option value="303">Water 7 (303 - 441)</option>
+                            <option value="442">Thriller Bark (442 - 489)</option>
+                            <option value="490">Paramount War (490 - 597)</option>
+                            <option value="598">Fishman Island (598 - 653)</option>
+                            <option value="654">Dressrosa (654 - 801)</option>
+                            <option value="802">WholeCake (802 - 902)</option>
+                            <option value="903">Wano Kuni (902- 985)</option>
+                        </select>
+    
+                    </fieldset>
+                </form>
+    
+            </div>
+            
+        </div>
+        <h1 id="arc-title"></h1>
+    </div> 
+
+    <!-- Arcs list -->
+    <section class="arcs-list body">
+
+        <h1 class="wrapper">Select Arc</h1>
+        <div class="body-options">
+            <ul>
+                <li class="box-selector" id="arc-1">
+                    <h2>East Blue</h2>
+                    <p>Ch. 1 - 100</p>
+                    <a href=""><img src="assets/east-blue-arc.jpg" alt="link to eastblue arec, image of original five strawhat pirates: Luffy,Zoro, Nami, Usopp, Sanji">   
+                    </a>
+                </li>
+                <li class="box-selector" id="arc-2">
+                    <h2>Alabasta</h2>
+                    <p>Ch. 101 - 217</p>
+                    <a href=""><img src="assets/alabasta-arc.jpg" alt="link to alabasta arc, image of strawhat pirates in the final battle of Alubarna, Crocodile & his Nico Robin">
+                </a>
+                </li>
+                <li class="box-selector" id="arc-3">
+                    <h2>Skypiea</h2>
+                    <p>Ch. 218 - 302</p>
+                    <a href=""><img src="assets/skypiea-arc.jpg" alt = "link to skypia arc, image of strawhat pirates and God Enel, along with historical characters of skypia">
+                </a>
+                </li>
+                <li class="box-selector" id="arc-4">
+                    <h2>Water 7</h2>
+                    <p>Ch. 303 - 441</p>
+                    <a href=""><img src="assets/water-7-arc.jpg"
+                        alt="link to water 7 arc, an image of the strawhat pirates along with new member Franky and villains CP-9">
+                    </a>
+                </li>
+                <li class="box-selector" id="arc-5">
+                    <h2>Thriller Bark</h2>
+                    <p>Ch. 442 - 489</p>
+                    <a href=""><img src="assets/thriller-bark-arc.jpg"
+                        alt="link to thriller bark arc, and image of the thriller bark pirates">
+                    </a>
+                </li>
+                <li class="box-selector" id="arc-6">
+                    <h2>Paramount War</h2>
+                    <p>Ch. 490 - 597</p>
+                    <a href=""><img src="assets/paramount-war-arc.jpg"
+                            alt="link to paramount war arc, an image of the battle scene taking place at Marineford">
+                    </a>
+                </li>
+                <li class="box-selector" id="arc-7">
+                    <h2>Fishman Island</h2>
+                    <p>Ch. 598 - 653</p>
+                    <a href=""><img src="assets/fishman-island-arc.jpg"
+                            alt="link to the fishman island arc, an image of luffy in awe of fishman island, an underwater city">
+                    </a>
+                </li>
+                <li class="box-selector" id="arc-8">
+                    <h2>Dressrosa</h2>
+                    <p>Ch. 654 - 801</p>
+                    <a href=""><img src="assets/dressrosa-arc.jpg"
+                            alt="link to dressrosa arc, and image of luffy and other major characters of the dressrosa arc">
+                    </a>
+                </li>
+                <li class="box-selector" id="arc-9">
+                    <h2>WholeCake</h2>
+                    <p>Ch. 802 - 902</p>
+                    <a href=""><img src="assets/whole-cake-arc.jpg"
+                            alt="link to whole cake arc, and image of luffy and sanji facing off against each other, along with big mom, vinsmoke family, and strawhat pirates">
+                    </a>
+                </li>
+                <li class="box-selector" id="arc-10">
+                    <h2>Wano Kuni</h2>
+                    <p>Ch. 903 - 985</p>
+                    <a href="chapters.html"><img src="assets/wano-kuni-arc.jpg"
+                            alt="link to wano kuni arc, and image of the entire strawhat crew dressed in traditional japanese clothing">
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </section>
+
+    <!-- Chapters carousel -->
+    <section class="chapters-carousel body" id="hide-chapters">
+        <div class="chapters-gallery">
+            <button class="previous"><span>Previous Chapter</span></button>
+            <button class="next"><span>Next Chapter</span></button>
+            <img class="api-img" src="" alt="">
+            <h2 class="chapter-title"></h2>
+            <p class="chapter-name"></p>
+            <p class="chapter-description"></p>
+        </div>
+    </section>
+
+    <!-- Socials and footer -->
+    <footer class="footer">
+
+        <div class="footer-socials wrapper">
+
+            <div class="all-socials">
+                <!-- Erics socials -->
+                <div class="social-box">
+                    <p>Eric Howell</p>
+                    <ul class="eric-socials">
+                        <li><a href="https://github.com/RixTrixx"><i class="fab fa-github"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/eric-howell-513656b9/"><i class="fab fa-linkedin"></i></a></li>
+                        <li></li>
+                    </ul>
+                </div>
+            
+                <!-- Saifs socials -->
+                <div class="social-box">
+                    <p>Saif Hussaini</p>
+                    <ul class="saif-socials">
+                        <li><a href="https://github.com/SSHMamba"><i class="fab fa-github"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/saif-hussaini-04a96b202/"><i class="fab fa-linkedin"></i></a></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+
+            <p class="footer-copyright"> &copy Created at Juno College 2021</p>
+
+        </div>
+
+    </footer>
+
+<!-- <script></script> -->
+<script src="arcspage.js"></script>
+
+</body>
+</html>

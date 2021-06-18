@@ -1,0 +1,1130 @@
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+article, aside, footer, header, nav, section {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+figcaption, figure, main {
+  display: block;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+b, strong {
+  font-weight: inherit;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+code, kbd, samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+audio, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+img {
+  border-style: none;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button, input {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, html [type=button], [type=reset], [type=submit] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type=checkbox], [type=radio] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details, menu {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+canvas {
+  display: inline-block;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: "";
+  clear: both;
+  height: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.visuallyHidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0);
+  overflow: hidden;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.wrapper {
+  max-width: 1250px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+h1, h2, h3, p, ul, li, a {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav ul li a {
+  font-size: 20px;
+}
+
+nav ul li a:hover {
+  color: yellow;
+}
+
+header {
+  background-color: #8dcbdf;
+  height: 15vh;
+  position: relative;
+  background-image: url(../assets/header-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+.header-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  margin-left: -50px;
+}
+nav ul li {
+  margin-right: 20px;
+  font-family: "ONE PIECE", sans-serif;
+  font-size: 2rem;
+  -webkit-transform: box-shadow;
+          transform: box-shadow;
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+}
+nav ul li a:hover {
+  color: yellow;
+  border-bottom: 5px solid orange;
+  -webkit-box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.125);
+          box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.125);
+}
+nav ul li a:focus {
+  border: 5px solid yellow;
+}
+nav ul li a {
+  font-size: 50px;
+  font-weight: 700;
+  color: #641c1c;
+}
+
+.logo-desktop {
+  width: 50%;
+  position: relative;
+  right: 243px;
+  height: 15vh;
+}
+
+.mobile-logo {
+  display: none;
+}
+
+.header-image {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 35%;
+}
+
+body {
+  background-color: #f0ead6;
+}
+
+.body {
+  background-image: url(../assets/Wiki-background.jpg);
+}
+
+h1 {
+  font-family: "ONE PIECE", sans-serif;
+  font-size: 55px;
+  letter-spacing: 2px;
+  color: #641c1c;
+}
+
+h2 {
+  font-family: "ONE PIECE", sans-serif;
+  font-size: 85px;
+  color: #f0ead6;
+  letter-spacing: 3px;
+  -webkit-text-stroke: 3px black;
+}
+
+audio {
+  position: absolute;
+  right: 0;
+  background: burlywood;
+  -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+audio:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+.box-selector {
+  text-align: center;
+}
+
+.box-selector img {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.box-selector img:hover {
+  -webkit-transform: scale(1.06);
+          transform: scale(1.06);
+  -webkit-box-shadow: 0 17px 13px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 17px 13px 0px rgba(0, 0, 0, 0.25);
+}
+
+footer {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(#9198e5, #ffff));
+  background: linear-gradient(#ffff #9198e5);
+}
+
+.footer-socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 20px;
+}
+
+.social-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.social-box p, .social-box a {
+  font-size: 25px;
+}
+.social-box ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 5px;
+}
+.social-box ul:last-child {
+  margin-right: 30px;
+}
+.social-box ul:last-child li {
+  padding-left: 10px;
+}
+.social-box ul:last-child li a {
+  color: #E75605;
+}
+.social-box ul:last-child li a:hover {
+  color: rebeccapurple;
+}
+
+.footer-copyright {
+  margin-left: auto;
+}
+
+.index .body {
+  height: 80vh;
+}
+
+.index .mobile {
+  display: none;
+}
+
+h1 img {
+  width: 60px;
+}
+
+.body h1 {
+  padding-top: 15px;
+}
+
+.body-options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.body-options img {
+  border: 3px solid black;
+  width: 60%;
+}
+.body-options h2 {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.index .all-socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.arcs-list {
+  height: auto;
+  padding-bottom: 80px;
+}
+
+.arcs-body .mobile {
+  display: none;
+}
+
+.arcs-body .jump-link {
+  position: absolute;
+  right: 5px;
+}
+
+.arcs-body .body-options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.arcs-body .body-options ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.arcs-body .body-options ul h2 {
+  font-size: 50px;
+  letter-spacing: 1px;
+  -webkit-text-stroke: 2px black;
+}
+.arcs-body .body-options ul p {
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.arcs-body .body-options ul li {
+  width: 20%;
+}
+.arcs-body .body-options ul li img {
+  width: 55%;
+}
+
+.arcs-body select {
+  width: 270px;
+}
+
+.arcs-body .all-socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.chapters-carousel {
+  height: auto;
+  padding-bottom: 440px;
+}
+
+.chapters-gallery {
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 35px;
+  flex-wrap: wrap;
+  border: 5px dashed black;
+  background: rgba(233, 157, 87, 0.5);
+}
+
+.chapters-gallery img {
+  padding-top: 25px;
+  display: block;
+  width: 20%;
+  margin: 0 auto;
+}
+
+.chapter-description {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  position: relative;
+  padding: 25px;
+  margin: 0 auto;
+  width: 50%;
+  background: rgba(240, 206, 175, 0.9);
+  border: 2px dotted black;
+  letter-spacing: 1.5px;
+  line-height: 25px;
+  border-radius: 5%;
+}
+
+.chapter-title {
+  font-family: "ONE PIECE", sans-serif;
+  font-size: 5rem;
+  position: relative;
+  padding: 25px;
+}
+
+.chapter-name {
+  font-family: "ONE PIECE", sans-serif;
+  font-size: 3rem;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.previous,
+.next {
+  background: #8dcbdf;
+  border: 3px solid yellow;
+  width: 300px;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+  margin-bottom: 8px;
+  padding: 3px 0;
+  color: white;
+  cursor: pointer;
+  -webkit-box-shadow: 0 7px 3px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 7px 3px 0px rgba(0, 0, 0, 0.25);
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.previous:hover,
+.next:hover {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  opacity: 1;
+  -webkit-box-shadow: 0 8px 20px 5px rgba(0, 0, 0, 0.125);
+          box-shadow: 0 8px 20px 5px rgba(0, 0, 0, 0.125);
+  font-size: 23px;
+  color: #e99d57;
+}
+
+.menu-container {
+  background-image: url(../assets/Wiki-background.jpg);
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+select {
+  width: 150px;
+  font-size: 20px;
+}
+
+select:focus {
+  border: 5px solid yellow;
+}
+
+.post {
+  text-decoration: none;
+  color: inherit;
+  max-width: 350px;
+  position: relative;
+  padding: 1rem;
+  background-image: url(../assets/Wiki-background.jpg);
+}
+.post:before {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #8dcbdf;
+  -webkit-transform-origin: 0 top 0;
+          transform-origin: 0 top 0;
+  -webkit-transform: scaleY(0);
+          transform: scaleY(0);
+  -webkit-transition: 0.4s ease-out;
+  transition: 0.4s ease-out;
+}
+.post:hover:before {
+  -webkit-transform: scaleY(1);
+          transform: scaleY(1);
+}
+
+.post-title {
+  position: relative;
+  font-size: 2rem;
+  font-family: "ONE PIECE", sans-serif;
+  color: #f0ead6;
+  letter-spacing: 3px;
+  -webkit-text-stroke: 2px black;
+  font-weight: 700;
+  line-height: 1.333;
+  -webkit-transition: 0.4s ease-out;
+  transition: 0.4s ease-out;
+}
+
+.jump-link {
+  text-align: right;
+  position: relative;
+  top: 50px;
+}
+.jump-link p {
+  font-family: "ONE PIECE", sans-serif;
+  font-size: 85px;
+  color: #f0ead6;
+  letter-spacing: 3px;
+  -webkit-text-stroke: 3px black;
+  font-size: 25px;
+  -webkit-text-stroke: 1.5px black;
+}
+.jump-link img {
+  width: 50px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.jump-link img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  width: 65px;
+}
+
+@media (max-width: 1620px) {
+  .index header img {
+    right: 100px;
+  }
+}
+@media (max-width: 800px) {
+  .index header img {
+    right: 70px;
+  }
+  .index nav ul li a {
+    font-size: 40px;
+  }
+  .index h1 {
+    padding: 25px 0;
+  }
+  .index h2 {
+    font-size: 60px;
+  }
+  .index .social-box p {
+    font-size: 20px;
+    width: 32%;
+  }
+}
+@media (max-width: 600px) {
+  .index header img {
+    display: none;
+  }
+  .index .mobile {
+    position: initial;
+    display: block;
+    width: 20%;
+    height: auto;
+  }
+  .index .header-logo {
+    width: 100%;
+  }
+  .index nav ul li a {
+    font-size: 30px;
+  }
+  .index .body-options {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-bottom: 50px;
+  }
+  .index .body {
+    height: auto;
+  }
+  .index h1 {
+    padding-bottom: 0;
+    font-size: 40px;
+  }
+  .index h2 {
+    padding-top: 15px;
+  }
+  .index .footer-socials {
+    display: block;
+  }
+  .index .social-box {
+    width: 51%;
+  }
+  .index footer-copyright {
+    padding-top: 20px;
+  }
+}
+@media (max-width: 1920px) {
+  .chapters-body .logo-desktop {
+    width: 500px;
+  }
+  .chapters-body .chapters-gallery img {
+    width: 35%;
+  }
+  .chapters-body .chapter-description {
+    width: 80%;
+  }
+}
+@media (max-width: 1280px) {
+  .chapters-body .logo-desktop {
+    width: 300px;
+    right: 25px;
+  }
+  .chapters-body nav ul li a {
+    font-size: 40px;
+  }
+  .chapters-body .chapters-gallery {
+    width: 60%;
+  }
+  .chapters-body .chapters-gallery img {
+    width: 50%;
+  }
+  .chapters-body .chapter-description {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .chapters-body .logo-desktop {
+    width: 350px;
+    right: 50px;
+  }
+  .chapters-body nav ul li a {
+    font-size: 35px;
+  }
+  .chapters-body .chapters-gallery {
+    width: 100%;
+  }
+  .chapters-body .chapters-gallery img {
+    width: 60%;
+  }
+  .chapters-body .chapter-description {
+    font-size: 25px;
+    padding: 40px;
+  }
+  .chapters-body footer .wrapper {
+    width: 95%;
+  }
+  .chapters-body .jump-link {
+    left: 140px;
+  }
+}
+@media (max-width: 600px) {
+  .chapters-body .logo-desktop {
+    right: 70px;
+  }
+  .chapters-body nav ul {
+    margin-left: -100px;
+  }
+  .chapters-body .chapters-gallery img {
+    width: 70%;
+  }
+  .chapters-body .chapter-title {
+    font-size: 4rem;
+    padding: 20px;
+  }
+  .chapters-body .chapter-description {
+    font-size: 20px;
+  }
+  .chapters-body .chapter-name {
+    font-size: 2.5rem;
+  }
+  .chapters-body .jump-link {
+    left: 0px;
+  }
+  .chapters-body .social-box p {
+    font-size: 20px;
+  }
+  .chapters-body .social-box a {
+    font-size: 35px;
+  }
+}
+@media (max-height: 578px) {
+  .chapters-body .logo-desktop {
+    width: 250px;
+  }
+  .chapters-body .chapters-gallery {
+    width: 80%;
+  }
+  .chapters-body .chapter-description {
+    width: 100%;
+  }
+}
+@media (max-height: 420px) {
+  .chapters-body .logo-desktop {
+    display: none;
+  }
+  .chapters-body .mobile-logo {
+    display: block;
+    width: 10%;
+    right: 55px;
+    position: relative;
+    height: auto;
+  }
+  .chapters-body nav ul {
+    margin-left: -20px;
+  }
+  .chapters-body .chapters-gallery {
+    width: 80%;
+  }
+  .chapters-body .chapter-description {
+    width: 100%;
+  }
+}
+@media (max-height: 375px) {
+  .chapters-body .jump-link p {
+    font-size: 14px;
+  }
+  .chapters-body .chapters-gallery {
+    width: 100%;
+  }
+  .chapters-body .chapter-description {
+    font-size: 15px;
+  }
+}
+@media (max-width: 420px) {
+  .chapters-body .logo-desktop {
+    display: none;
+  }
+  .chapters-body .mobile-logo {
+    display: block;
+    width: 28%;
+    right: 25px;
+    position: relative;
+    height: auto;
+  }
+  .chapters-body nav ul {
+    margin-left: -56px;
+  }
+  .chapters-body .menu-container {
+    padding-bottom: 60px;
+  }
+  .chapters-body .previous,
+.chapters-body .next {
+    width: 250px;
+  }
+  .chapters-body .chapters-gallery img {
+    width: 100%;
+  }
+  .chapters-body .chapter-description {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    padding: 20px;
+  }
+  .chapters-body .chapter-title {
+    padding: 15px;
+  }
+  .chapters-body .post-title {
+    font-size: 0.5rem;
+    line-height: 1em;
+  }
+  .chapters-body audio {
+    width: 120px;
+  }
+  .chapters-body select {
+    width: 100px;
+    font-size: 10px;
+  }
+  .chapters-body .footer-socials {
+    text-align: center;
+  }
+  .chapters-body .social-box p {
+    font-size: 15px;
+  }
+  .chapters-body .social-box a {
+    font-size: 30px;
+  }
+}
+@media (max-width: 400px) {
+  .chapters-body .previous,
+.chapters-body .next {
+    width: 100px;
+    font-size: 10px;
+  }
+  .chapters-body .menu-container {
+    padding-bottom: 60px;
+  }
+  .chapters-body .jump-link p {
+    font-size: 15px;
+  }
+  .chapters-body .post-title {
+    font-size: 0.5rem;
+    line-height: 1em;
+  }
+  .chapters-body select {
+    width: 100px;
+    font-size: 10px;
+  }
+  .chapters-body .social-box p {
+    font-size: 15px;
+  }
+  .chapters-body .social-box a {
+    font-size: 20px;
+  }
+  .chapters-body audio {
+    width: 120px;
+  }
+  .chapters-body .chapter-description {
+    line-height: 17px;
+  }
+  .chapters-body .chapter-title {
+    font-size: 3.5rem;
+  }
+  .chapters-body .chapter-name {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 1620px) {
+  .arcs-body header img {
+    right: 100px;
+  }
+}
+@media (max-width: 1360px) {
+  .arcs-body .chapter-description {
+    width: 100%;
+  }
+  .arcs-body .body-options ul li {
+    width: 32%;
+    margin-top: 25px;
+  }
+  .arcs-body .body-options h2 {
+    padding: 0;
+  }
+  .arcs-body .chapters-gallery {
+    width: 80%;
+  }
+}
+@media (max-width: 865px) {
+  .arcs-body header img {
+    right: 60px;
+  }
+  .arcs-body nav ul li a {
+    font-size: 35px;
+  }
+  .arcs-body .body-options ul li {
+    width: 50%;
+  }
+  .arcs-body .chapters-gallery {
+    width: 90%;
+  }
+  .arcs-body .chapters-gallery img {
+    width: 50%;
+  }
+  .arcs-body .chapter-title {
+    font-size: 4rem;
+  }
+  .arcs-body .chapter-name {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 670px) {
+  .arcs-body .menu-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .arcs-body .jump-link,
+.arcs-body audio {
+    text-align: left;
+    position: relative;
+    top: 0;
+    left: 5px;
+  }
+  .arcs-body .body-options ul li {
+    width: 100%;
+  }
+}
+@media (max-width: 530px) {
+  .arcs-body header img {
+    display: none;
+  }
+  .arcs-body .mobile {
+    position: initial;
+    display: block;
+    width: 20%;
+    height: auto;
+  }
+  .arcs-body .header-logo {
+    width: 100%;
+  }
+  .arcs-body nav ul li a {
+    font-size: 30px;
+  }
+  .arcs-body .footer-copyright {
+    padding-top: 20px;
+  }
+  .arcs-body .footer-socials {
+    display: block;
+  }
+  .arcs-body social-box {
+    width: 51%;
+  }
+  .arcs-body social-box p {
+    font-size: 22px;
+    width: 35%;
+  }
+}
+@media (max-width: 420px) {
+  .arcs-body .chapters-gallery {
+    padding: 5px;
+  }
+  .arcs-body .chapter-title {
+    padding: 10px 0;
+    font-size: 3.3rem;
+    padding-right: 20px;
+  }
+  .arcs-body .chapter-name {
+    font-size: 1.7rem;
+    padding-right: 35px;
+  }
+  .arcs-body .chapter-description {
+    font-size: 15px;
+    padding: 5px;
+    margin: 0;
+  }
+  .arcs-body .post {
+    padding: 0;
+  }
+  .arcs-body .previous,
+.arcs-body .next {
+    width: 230px;
+  }
+  .arcs-body .post-title {
+    line-height: 1em;
+  }
+  .arcs-body audio {
+    width: 120px;
+  }
+}

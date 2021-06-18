@@ -1,0 +1,28 @@
+.index .body {
+    height: 80vh;
+}
+.index .mobile {
+    display: none;
+}
+h1 img {
+    width: 60px;
+}
+.body h1{
+    padding-top: 15px;
+}
+.body-options {
+    display: flex;
+    justify-content: center;
+    img {
+        border: 3px solid black;
+        width: 60%;
+    }
+    h2{
+        text-align: center;
+        padding: 10px 0;
+    } 
+}
+.index .all-socials {
+    display: flex;
+}
+

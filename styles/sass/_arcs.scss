@@ -1,0 +1,43 @@
+// Styling for the arcs list
+.arcs-list {
+    height: auto;
+    padding-bottom: 80px;
+}
+.arcs-body .mobile {
+    display: none;
+}
+.arcs-body .jump-link {
+    position: absolute;
+    right: 5px;
+}
+.arcs-body .body-options{
+    display: flex;
+        ul {
+        display: flex;
+        flex-wrap: wrap;
+        h2 {
+            font-size: 50px;
+            letter-spacing: 1px;
+            -webkit-text-stroke: 2px black;
+        }
+        p {
+            font-size: 20px;
+            font-weight : 700;
+            padding-bottom: 10px;
+        }
+        li {
+            width: 20%;
+            img {
+                width: 55%;
+            }
+        }
+    }
+}
+.arcs-body select {
+    width: 270px;
+}
+.arcs-body .all-socials {
+    display: flex;
+}
+
+

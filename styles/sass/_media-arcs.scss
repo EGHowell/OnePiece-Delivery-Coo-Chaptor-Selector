@@ -1,0 +1,136 @@
+@media(max-width: 1620px) {
+    .arcs-body header img {
+        right: 100px;
+    }
+}
+
+@media(max-width: 1360px) {
+    .arcs-body {
+        .chapter-description {
+        width: 100%;
+        }
+        .body-options ul li {
+            width: 32%;
+            margin-top: 25px;
+        }
+        .body-options h2 {
+            padding: 0;
+        }
+        .chapters-gallery {
+            width: 80%;
+        }
+    }
+}
+
+@media(max-width: 865px) {
+    .arcs-body {
+        header img {
+            right: 60px;
+        }
+        nav ul li a {
+            font-size: 35px;
+        }
+        .body-options ul li {
+            width: 50%;
+        }
+        .chapters-gallery {
+            width: 90%;
+            img {
+                width: 50%;
+            }
+        }
+        .chapter-title {
+            font-size: 4rem;
+        }
+        .chapter-name {
+            font-size: 2.5rem;
+        }
+    }
+}
+
+@media (max-width: 670px) {
+    .arcs-body {
+        .menu-container {
+        display: flex;
+        flex-direction: column-reverse;
+        }
+        .jump-link,
+        audio {
+        text-align: left;
+        position: relative;
+        top: 0;
+        left: 5px;
+        }
+        .body-options ul li {
+        width: 100%;
+        }
+    }
+}
+
+@media(max-width: 530px) {
+    .arcs-body {
+        header img {
+        display: none;
+        }
+        .mobile {
+            position: initial;
+            display: block;
+            width: 20%;
+            height: auto;
+        }
+        .header-logo {
+            width: 100%;
+        }
+        nav ul li a{
+            font-size: 30px;
+        }
+        .footer-copyright {
+            padding-top: 20px;
+        }
+        .footer-socials {
+            display: block;
+        }
+        social-box {
+            width: 51%;
+            p {
+                font-size: 22px;
+                width: 35%;
+            }
+        }
+    }
+}
+
+@media (max-width: 420px) {
+    .arcs-body {
+        .chapters-gallery {
+        padding: 5px;
+        }
+        .chapter-title {
+            padding: 10px 0;
+            font-size: 3.3rem;
+            padding-right: 20px;
+        }
+        .chapter-name {
+            font-size: 1.7rem;
+            padding-right: 35px;
+        }
+        .chapter-description{
+            font-size: 15px;
+            padding: 5px;
+            margin: 0;
+        }
+        .post {
+            padding: 0;
+        }
+        .previous,
+        .next {
+            width: 230px;
+        }
+        .post-title {
+        line-height: 1em;       
+        }
+        audio {
+            width: 120px;
+        }
+    }
+}

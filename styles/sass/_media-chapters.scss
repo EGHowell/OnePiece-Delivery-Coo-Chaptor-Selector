@@ -1,0 +1,317 @@
+// 1080p screens
+@media (max-width: 1920px) {
+    .chapters-body {
+        .logo-desktop {
+            width: 500px;
+        }
+
+        .chapters-gallery img {
+            width: 35%;
+        }
+        
+        .chapter-description {
+            width: 80%;
+        }
+    }
+
+}
+
+// 720p screens
+@media (max-width: 1280px) {
+    .chapters-body {
+        .logo-desktop {
+            width: 300px;
+            right: 25px;
+        }
+
+        nav ul li a {
+        font-size: 40px;
+        }
+
+        .chapters-gallery {
+            width: 60%;
+        }
+
+        .chapters-gallery img {
+            width: 50%;
+        }
+
+        .chapter-description {
+            width: 100%;
+        }
+
+
+    }
+}
+
+// iPad/tablet screens
+@media (max-width: 768px) {
+    .chapters-body {
+        .logo-desktop {
+            width:350px;
+            right: 50px;
+        }
+
+        nav ul li a {
+            font-size: 35px;
+        }
+
+        .chapters-gallery {
+            width: 100%
+        }
+
+        .chapters-gallery img {
+            width: 60%;
+        }
+
+        .chapter-description {
+            font-size: 25px;
+            padding: 40px;
+        }
+
+        footer .wrapper {
+            width: 95%;
+        }
+
+        .jump-link {
+            left: 140px;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .chapters-body {
+        .logo-desktop {
+            right: 70px;
+        }
+
+        nav ul  {
+            margin-left: -100px;
+        }
+
+        .chapters-gallery img {
+            width: 70%;
+        }
+
+        .chapter-title {
+            font-size: 4rem;
+            padding: 20px;
+        }
+
+        .chapter-description {
+            font-size: 20px;
+        }
+
+        .chapter-name {
+            font-size: 2.5rem;
+        }
+
+        .jump-link {
+            left: 0px;
+        }
+
+        .social-box p {
+            font-size: 20px;
+        }
+
+        .social-box a {
+            font-size: 35px;
+        }
+    }
+}
+
+// LANDSCAPE SECTION
+
+// Landscape for large phones
+@media (max-height: 578px) {
+    .chapters-body {
+        .logo-desktop {
+            width: 250px;
+        }
+    .chapters-gallery {
+        width: 80%;
+    }
+
+    .chapter-description {
+        width: 100%;
+    }
+    }
+}
+
+// Landscape for smartphones
+@media (max-height: 420px) {
+    .chapters-body {
+        .logo-desktop {
+            display: none;
+        }
+    .mobile-logo {
+        display: block;
+        width: 10%;
+        right: 55px;
+        position: relative;
+        height: auto;
+
+    }
+
+    nav ul {
+        margin-left: -20px;
+    }
+
+    .chapters-gallery {
+        width: 80%;
+    }
+
+    .chapter-description {
+        width: 100%;
+    }
+    }
+}
+
+@media (max-height: 375px) {
+    .chapters-body {
+        .jump-link {
+            p {
+                font-size: 14px;
+        }
+    }
+    .chapters-gallery {
+        width: 100%;
+    }
+
+    .chapter-description {
+        font-size: 15px;
+    }
+
+    }
+}
+
+// END OF LANDSCAPE SECTION
+
+// Large phones (Galaxy Note.. etc.)
+@media (max-width: 420px) {
+    .chapters-body { 
+
+    .logo-desktop {
+        display: none;
+    }
+
+    .mobile-logo {
+        display: block;
+        width: 28%;
+        right: 25px;
+        position: relative;
+        height: auto;
+    }
+
+    nav ul {
+    margin-left: -56px;
+
+    }
+
+    .menu-container {
+        padding-bottom: 60px;
+    }
+
+    .previous,
+    .next {
+        width: 250px;
+    }
+
+    .chapters-gallery img {
+        width: 100%;
+    }
+
+    .chapter-description {
+        font-size: 15px;
+        letter-spacing: 1px;
+        line-height: 20px;
+        padding: 20px;
+    }
+
+    .chapter-title {
+        padding: 15px;
+    }
+    .post-title {
+        font-size: 0.5rem;
+        line-height: 1em;       
+    }
+
+    audio {
+        width: 120px;
+    }
+
+    select {
+        width: 100px;
+        font-size: 10px;
+    }
+
+    .footer-socials {
+        text-align: center;
+    }
+
+    .social-box p {
+        font-size: 15px;
+    }
+
+    .social-box a {
+        font-size: 30px;
+    }
+
+    }
+}
+
+// General smartphones
+@media (max-width: 400px) {
+    .chapters-body {
+        .previous,
+        .next {
+            width: 100px;
+            font-size: 10px;
+        }
+
+        .menu-container {
+            padding-bottom: 60px;
+        }
+        .jump-link {
+            p {
+                font-size: 15px;
+            }
+        }
+
+        .post-title {
+            font-size: 0.5rem;
+            line-height: 1em;
+            
+        }
+
+        select {
+            width: 100px;
+            font-size: 10px;
+        }
+
+        .social-box p {
+            font-size: 15px;
+        }
+
+        .social-box a{
+            font-size: 20px;
+        }
+        
+        audio {
+            width: 120px;
+        }
+        .chapter-description {
+            line-height: 17px;
+        }
+
+        .chapter-title {
+            font-size: 3.5rem;
+        }
+
+        .chapter-name {
+            font-size: 2rem;
+        }
+
+        
+    }
+}

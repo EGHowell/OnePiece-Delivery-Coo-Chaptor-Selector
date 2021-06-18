@@ -1,0 +1,162 @@
+// Sitewide/General styling
+.wrapper {
+    max-width: 1250px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 0;
+}
+img {
+    width: 100%;
+}
+h1, h2, h3, p, ul, li, a {
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+// Nav Styling
+nav ul li a {
+    font-size: 20px;
+}
+nav ul li a:hover{
+    color: yellow;
+}
+
+// Header Styling
+header {
+    background-color: $header-color;
+    height: 15vh;
+    position: relative;
+    background-image: url(../assets/header-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:right;
+}
+.header-logo {
+    display: flex;
+}   nav ul {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    margin-left: -50px;
+    li {
+        margin-right: 20px;
+        font-family: 'ONE PIECE', sans-serif;
+        font-size: 2rem;
+        transform: box-shadow;
+        transition: 0.3s ease-in;
+    }
+    li a:hover{
+        color: yellow;
+        border-bottom: 5px solid orange;
+        box-shadow: 0 8px 20px 0px rgba(0,0,0,0.125);
+        
+    }
+    
+    li a:focus {
+        border: 5px solid yellow;
+    }
+
+    li a {
+        font-size: 50px;
+        font-weight: 700;
+        color: $title-color;
+    }
+}
+.logo-desktop {
+    width: 50%;
+    position: relative;
+    right: 243px;
+    height: 15vh;
+}
+
+.mobile-logo {
+    display: none;
+}
+.header-image {
+    position: absolute;
+    right: 0;
+    top:0;
+    width: 35%;
+}
+
+// Body styling
+body {
+    background-color:$eggshell-color;
+}
+.body {
+background-image: url(../assets/Wiki-background.jpg);
+}
+h1 {
+    @include h1;
+}
+h2 {
+    @include h2;
+}
+audio {
+    position: absolute;
+    right: 0;
+    background:burlywood;
+    -webkit-box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);
+    transition: 0.5s;
+
+}
+
+audio:hover {
+    transform: scale(1.03);
+}
+
+.box-selector {
+    text-align: center;
+}
+.box-selector img {
+    transition: 0.5s;
+}
+.box-selector img:hover{
+    transform: scale(1.06);
+    box-shadow:0 17px 13px 0px rgba(0,0,0,0.25);
+};
+
+
+
+
+// Footer styling
+footer {
+    // background-color: $eggshell-color;
+    background: linear-gradient(#ffff #9198e5);
+    // height: 5vh;
+}
+.footer-socials {
+    display: flex;
+    padding-top: 20px;
+}
+.social-box {
+    display: flex;
+    p, a {
+        font-size: 25px;
+    }
+    ul {
+        display: flex;
+        margin-left: 5px;
+    }
+    ul:last-child {
+        margin-right: 30px;
+        li {
+            padding-left: 10px;
+            a {
+                color: $orange-icon;
+            }
+            a:hover {
+                color: rebeccapurple;
+            }
+        }
+    }
+}
+.footer-copyright {
+    margin-left: auto;
+}
