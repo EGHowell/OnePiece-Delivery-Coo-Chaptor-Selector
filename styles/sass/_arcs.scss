@@ -10,13 +10,17 @@
     position: absolute;
     right: 5px;
 }
+
+.arcs-body h1 {
+    font-size: 45px;
+}
 .arcs-body .body-options{
     display: flex;
         ul {
         display: flex;
         flex-wrap: wrap;
         h2 {
-            font-size: 50px;
+            font-size: 35px;
             letter-spacing: 1px;
             -webkit-text-stroke: 2px black;
         }
