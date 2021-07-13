@@ -314,6 +314,7 @@ nav ul li {
   font-size: 2rem;
   -webkit-transform: box-shadow;
           transform: box-shadow;
+  -webkit-text-stroke: 1px yellow;
   -webkit-transition: 0.3s ease-in;
   transition: 0.3s ease-in;
 }
@@ -438,15 +439,11 @@ footer {
 }
 
 .footer-copyright {
-  margin-left: auto;
+  text-align: center;
 }
 
 .index .body {
   height: 80vh;
-}
-
-.index .mobile {
-  display: none;
 }
 
 h1 img {
@@ -455,6 +452,13 @@ h1 img {
 
 .index h1 {
   font-size: 35px;
+}
+
+.summary {
+  text-align: center;
+  font-size: 25px;
+  color: #641c1c;
+  font-weight: bold;
 }
 
 .index .body-options {
@@ -758,6 +762,9 @@ select:focus {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .index .summary {
+    font-size: 17px;
+  }
   .index .logo-desktop {
     margin-right: auto;
     width: 200px;
@@ -767,6 +774,7 @@ select:focus {
   }
   .index h1 {
     padding-bottom: 0;
+    padding-top: 10px;
   }
   .index h2 {
     font-size: 40px;

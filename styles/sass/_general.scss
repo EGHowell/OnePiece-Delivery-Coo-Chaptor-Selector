@@ -48,6 +48,7 @@ header {
         font-family: 'ONE PIECE', sans-serif;
         font-size: 2rem;
         transform: box-shadow;
+        -webkit-text-stroke: 1px yellow;
         transition: 0.3s ease-in;
     }
     li a:hover{
@@ -154,5 +155,5 @@ footer {
     }
 }
 .footer-copyright {
-    margin-left: auto;
+    text-align: center;
 }
