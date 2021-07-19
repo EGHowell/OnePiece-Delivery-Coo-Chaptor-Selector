@@ -98,14 +98,22 @@
           
         .chapter-title {
             padding: 10px;
+            font-size: 2rem;
         }
           
         .chapter-name {
             padding-top: 0;
+            font-size: 1.2rem;
+        }
+        .jump-link {
+            p {
+                font-size: 15px;
+            }
         }
           
         .api-img {
             margin: auto;
+            width: 50%;
         }
 
         .footer-copyright {

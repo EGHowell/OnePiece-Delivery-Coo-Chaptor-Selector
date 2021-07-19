@@ -887,12 +887,15 @@ select:focus {
   }
   .chapters-body .chapter-title {
     padding: 10px;
+    font-size: 2rem;
   }
   .chapters-body .chapter-name {
     padding-top: 0;
+    font-size: 1.2rem;
   }
   .chapters-body .api-img {
     margin: auto;
+    width: 50%;
   }
   .chapters-body .menu-container {
     display: -webkit-box;
@@ -912,6 +915,9 @@ select:focus {
   }
   .chapters-body .body-options ul li {
     width: 100%;
+  }
+  .chapters-body .jump-link p {
+    font-size: 15px;
   }
   .chapters-body audio {
     width: 140px;
@@ -942,9 +948,6 @@ select:focus {
   }
   .chapters-body .chapters-gallery {
     padding: 10px;
-  }
-  .chapters-body .chapters-gallery img {
-    width: 100%;
   }
   .chapters-body .chapter-description {
     font-size: 15px;
@@ -977,9 +980,6 @@ select:focus {
   .chapters-body .menu-container {
     padding-bottom: 30px;
   }
-  .chapters-body .jump-link p {
-    font-size: 25px;
-  }
   .chapters-body .post-title {
     font-size: 1.5rem;
     line-height: 1em;
@@ -999,12 +999,6 @@ select:focus {
   }
   .chapters-body .chapter-description {
     line-height: 17px;
-  }
-  .chapters-body .chapter-title {
-    font-size: 3.5rem;
-  }
-  .chapters-body .chapter-name {
-    font-size: 2rem;
   }
 }
 @media (max-width: 1620px) {
@@ -1097,12 +1091,18 @@ select:focus {
   }
   .arcs-body .chapter-title {
     padding: 10px;
+    font-size: 2rem;
   }
   .arcs-body .chapter-name {
     padding-top: 0;
+    font-size: 1.2rem;
+  }
+  .arcs-body .jump-link p {
+    font-size: 15px;
   }
   .arcs-body .api-img {
     margin: auto;
+    width: 50%;
   }
   .arcs-body .footer-copyright {
     padding-top: 20px;

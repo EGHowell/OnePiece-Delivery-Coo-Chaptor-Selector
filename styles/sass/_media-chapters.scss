@@ -136,14 +136,17 @@
           
           .chapter-title {
             padding: 10px;
+            font-size: 2rem;
           }
           
           .chapter-name {
             padding-top: 0;
+            font-size: 1.2rem;
           }
           
           .api-img {
             margin: auto;
+            width: 50%;
           }
 
           .menu-container {
@@ -159,6 +162,12 @@
             }
             .body-options ul li {
             width: 100%;
+            }
+
+            .jump-link {
+                p {
+                    font-size: 15px;
+                }
             }
 
             audio {
@@ -202,9 +211,6 @@
         .chapters-gallery {
             padding: 10px;
         }
-        .chapters-gallery img {
-            width: 100%;
-        }
 
         .chapter-description {
             font-size: 15px;
@@ -247,12 +253,6 @@
             padding-bottom: 30px;
         }
 
-        .jump-link {
-            p {
-                font-size: 25px;
-            }
-        }
-
         .post-title {
             font-size: 1.5rem;
             line-height: 1em;
@@ -279,13 +279,6 @@
             line-height: 17px;
         }
 
-        .chapter-title {
-            font-size: 3.5rem;
-        }
-
-        .chapter-name {
-            font-size: 2rem;
-        }
         
     }
 }
